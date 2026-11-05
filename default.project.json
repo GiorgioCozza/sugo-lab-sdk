@@ -1,0 +1,29 @@
+{
+  "name": "RobloxCommonDemo",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "RobloxCommon": {
+        "$className": "Folder",
+        "Shared": { "$path": "src/shared" },
+        "Assets": { "$path": "assets/prefabs" }
+      }
+    },
+    "ServerScriptService": {
+      "RobloxCommonDemo": { "$path": "demo/Preview.server.lua" }
+    },
+    "Workspace": {
+      "DemoFloor": {
+        "$className": "Part",
+        "$properties": { "Anchored": true, "Size": [64, 1, 64] }
+      },
+      "DemoSpawn": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "CFrame": [0, 1, 12, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+        }
+      }
+    }
+  }
+}
